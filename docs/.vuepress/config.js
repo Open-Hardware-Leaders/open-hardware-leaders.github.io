@@ -6,7 +6,7 @@ const sidebarArray = require("hardocs/src/buildSidebar");
 module.exports = {
     // extend: '@vuepress/theme-default',
     title: "Open Hardware Leaders",
-    base: "/" + process.env.REPOSITORY + "/",
+    base: "/open-hardware-leaders.github.io/",
     dest: "dist",
     //description : "use for meta descriptitrueon",
     logo: '/assets/img/logo.png',
