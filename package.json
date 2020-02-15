@@ -1,6 +1,10 @@
 {
     "description": "Hardocs stand for hardware documentation. It is a template to easily start an open hardware project document it, and publish it using a git based workflow",
     "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Open-Hardware-Leaders/open-hardware-leaders.github.io.git"
+      },
     "scripts": {
         "start": "vuepress dev docs",
         "build": "vuepress build docs",
